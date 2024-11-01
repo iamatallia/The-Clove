@@ -1,0 +1,859 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+    
+    
+
+
+    <!-- *** FE html start -->
+    <meta charset="utf-8">
+
+                <title>Some Recent Developments in the Art of Receiver Technology: A Selected History on Receiver Innovations over the Last 100 Years | Analog Devices</title>
+            <meta name="description" content="The article gives a history of the past 100 years of radio receivers. It concludes with today’s wide selection of IF sampling super-heterodyne and zero IF architectures in highly integrated forms. " />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="mobile-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="referrer" content="no-referrer-when-downgrade" />
+                        <meta name="yandex-verification" content="86a60d9bcaab43f0" />
+                        <meta name="google-site-verification" content="aVOSmh5Dsd1VpzYMM3a_ZvOQcjP9G5GDlvU-atf48ss" />
+                        <meta name="baidu-site-verification" content="cSddD8r1N7" />
+                        <meta name="msvalidate.01" content="381E86BC7EF76D19F9365D26D8BFCD35" />
+                                <link rel="canonical" href="https://www.analog.com/en/resources/analog-dialogue/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years.html" />
+                                <link rel="alternate" hreflang=x-default href="https://www.analog.com/en/resources/analog-dialogue/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years.html" />
+                                <link rel="alternate" hreflang=en-US href="https://www.analog.com/en/resources/analog-dialogue/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years.html" />
+                                <link rel="alternate" hreflang=zh-Hans-CN href="https://www.analog.com/cn/resources/analog-dialogue/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years.html" />
+                                <link rel="alternate" hreflang=ja-JP href="https://www.analog.com/jp/resources/analog-dialogue/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years.html" />
+
+        <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"TechArticle","genre":"Analog Dialogue","audience":"Engineers","author":[{"@type":"Person","name":"Brad Brannon"}],"url":"https://www.analog.com/en/resources/analog-dialogue/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years.html","headline":"Some Recent Developments in the Art of Receiver Technology: A Selected History on Receiver Innovations over the Last 100 Years","abstract":"Part 1: The Early DaysWhile there were many contributors to the early days of wireless, Guglielmo Marconi is one of the more prominent. While he is known for his wireless technology, many people are less familiar with the business he built around wir","publisher":{"@type":"Organization","name":"Analog Devices, Inc."}};
+        </script>
+
+
+    <script>!function (e, a, n, t) { var i = e.head; if (i) { if (a) return; var o = e.createElement("style"); o.id = "alloy-prehiding", o.innerText = n, i.appendChild(o), setTimeout(function () { o.parentNode && o.parentNode.removeChild(o) }, t) } }(document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, "body { opacity: 0 !important }", 3000);</script>
+
+    <script type="text/javascript">
+        var datalayer = {"device":{"browser":"","type":""},"page":{"details":{"part":{"applicableParts":null,"categories":null,"id":null,"lifeCycle":null,"markets":null,"name":null,"type":null}},"meta":{"breadcrumbs":null,"id":null,"journey":null,"language":null,"pathname":null,"persona":null,"publishDate":null,"title":null,"taxonomy":null,"type":null}},"user":{"cart":{"purchaseID":"","sampleID":"","transactionID":""},"email":"","loggedIn":false,"blocked":false,"memberStatus":false}};
+    </script>
+
+
+        <link href="https://assets2.analog.com/cms-assets/images/images/adi-favicon.svg" rel="shortcut icon" />
+    
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"></noscript>
+    <style>
+        :root {
+            --cta-color: #fff;
+            --cta-background: #1c1c1c;
+        }
+    </style>
+
+
+
+
+
+
+    <!-- Font-awesome -->
+    <!-- Latest compiled and minified CSS -->
+    <!-- Optional theme -->
+    <!-- owl-slider -->
+    <!-- Algolia Instant Search Theme -->
+    <!-- Autocomplete Theme -->
+
+
+    <!-- Latest compiled and minified JavaScript -->
+
+
+
+    <link rel="preload" href="https://assets2.analog.com/cms-assets/css/app.bundle.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://assets2.analog.com/cms-assets/css/app.bundle.css"></noscript>
+    <link rel="preload" href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css"></noscript>
+        <link rel="preload" href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css"></noscript>
+         <link rel="stylesheet" href="https://assets2.analog.com/cms-assets/css/legacy/styles/legacy-common.bundle.css">
+ <link rel="stylesheet" href="https://assets2.analog.com/cms-assets/css/pages/styles/error400page.bundle.css">
+ <link rel="stylesheet" href="https://assets2.analog.com/cms-assets/css/pages/styles/error500page.bundle.css">
+ <link rel="stylesheet" href="https://assets2.analog.com/cms-assets/css/legacy/styles/legacy-analog-dialogue.bundle.css">        <script src="https://assets2.analog.com/cms-assets/js/pages/scripts/analog-vendor.js"></script>
+    <link rel="preload" href="https://assets2.analog.com/header-footer/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://assets2.analog.com/cms-assets/css/pages/styles/rte-editor-control.bundle.css">
+    <noscript><link rel="stylesheet" href="https://assets2.analog.com/header-footer/index.css"></noscript>
+    <script src="https://assets2.analog.com/header-footer/index.js" type="module"></script>
+
+    <script src="https://assets.adobedtm.com/bc68b7886092/25785b612092/launch-715705770daf.min.js" async></script>
+    <!-- *** FE html end -->
+</head>
+<body class="default-device bodyclass" data-comp-prefix="app-js__" data-show-legacy-div-wrapper="False">
+
+    
+
+    
+
+<!-- #wrapper -->
+<div id="wrapper" class="page-wrap">
+    <!-- #header -->
+    <header>
+        <div id="header" class="container-fluid">
+            <div class="row">
+                <div>
+        <adi-header>
+            <adi-locale></adi-locale>
+            <adi-account></adi-account>
+        </adi-header>
+            <adi-menu divided>
+                <adi-cart></adi-cart>
+            </adi-menu>
+        <adi-dispatch></adi-dispatch>
+
+
+
+ <div class="legacy-component"><div id="header-insert"></div><section id="adi-ks" class=""><script> var adiHData = { subDomains: [{"key":"analog","label":"<strong>Analog.com</strong>","url":""},{"key":"EZ","label":"<strong>Engineer</strong>Zone","url":"https://ez.analog.com"},{"key":"wiki","label":"<strong>Wiki</strong>","url":"https://wiki.analog.com/"},{"key":"careers","label":"<strong>Careers</strong>","url":"/en/careers.html"}], locales: [{"code":"en","label":"English"},{"code":"cn","label":"简体中文"},{"code":"jp","label":"日本語"}], regions: [{"label":"India","url":"/en/lp/001/india-welcome.html"},{"label":"Korea","url":"/en/lp/001/korea-welcome.html"},{"label":"Singapore","url":"/en/lp/001/singapore-welcome.html"},{"label":"Taiwan","url":"/en/lp/001/taiwan-welcome.html"}], paths: { legacyCart: "ShoppingCart/ShoppingCartPage.aspx?locale={lang}" }, labels: {"sampleCenter":"Sample Center","languages":"Languages","designCenter":"Design Center","clear":"Clear","noItemsInCart":"There are no items in your cart","company":"Company","myAnalog":"MyAnalog","rmb":"¥ Yuan Cart","support":"Support","close":"Close","applications":"Applications","careers":"<strong>Careers</strong>","back":"Back","education":"Education","samples":"Samples","viewAll":"View All","region":"Region","usd":"$ USD Cart","itemCount":"{count} Items","products":"Products","viewCart":"View Cart","shoppingCart":"Shopping Cart","crossReference":"Cross Reference Search","quantity":"Quantity","orderMaximProducts":"Quickly order Maxim Integrated products in production or prototype quantities.","maximStorefront":"Maxim Store Front","cartsProcessedSeparately":"Your $USD and ¥RMB carts must be processed individually","search":"Search"} } </script></section><header id="header" data-commerce-cn="true" data-commerce-ww="true" data-commerce-ww2="true" data-ot="true" data-do-not-replace="true"><div class="col-md-12 ie-support"><div><span class="support-desc">Browser Compatibility Issue: We no longer support this version of Internet Explorer. For optimal site performance we recommend you update your browser to the latest version.</span><span class="update-ie-button"><a href="https://support.microsoft.com/en-us/help/17621/internet-explorer-downloads" class="btn btn-primary anchor-class-ie">Update Microsoft Internet Explorer</a></span></div></div><section id="header-top--mobile" class="container hidden-sm hidden-md hidden-lg text-center bg-purple"><div class="row"><div class="col-xs-2"></div><div class="subscribe col-xs-8"><a href="javascript:void(0);" class="email-subscribe-toggle text-white" data-toggle="collapse" data-target="#subscribe"> Subscribe </a></div><div class="fb pull-right p-lg border-white border-solid border-left col-xs-2"><a href="https://www.facebook.com/AnalogDevicesInc" class="fb-subscribe-toggle text-white"><i class="fab fa-facebook"></i></a></div></div></section><section id="header-middle" class="container"><div class="row"><div class="col-xs-2 hidden-sm hidden-md hidden-lg visible-xs visible-sm collapsed" data-toggle="collapse" data-target="#mobile-menu"><div class="navbar-header"><button type="button" class="btn navbar-toggle"><span class="sr-only"> Toggle navigation </span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="menu-label"> Menu </span></button></div></div><div class="col-xs-8 col-md-6 col-lg-5"><a href="/en/resources/analog-dialogue.html" name='Analog Dialogue Header_62bd7dd1-d660-42de-a3b9-c868061b6470'><img src="https://assets2.analog.com/cms-assets/images/images/AD_Logo_Large.png" loading="lazy" alt=""></a></div><div class="legacy-component"></div></div></section><section id="header-bottom" class="container"><div class="row"><div class="col-xs-12"><nav class="collapse" id="mobile-menu"><ul class="nav navbar-nav"><li><a href="/en/resources/analog-dialogue/about-analog-dialogue.html">About</a></li><li><a href="/en/resources/analog-dialogue/50-years.html">50 Years</a></li><li><a href="/en/resources/analog-dialogue/archives.html">Analog Dialogue Magazines</a></li><li><a href="/en/resources/analog-dialogue/studentzone.html">StudentZone</a></li><li><a href="/en/resources/analog-dialogue/raqs.html">RAQs</a></li><li class="dropdown"><a href="#" data-toggle="dropdown" class="resources"> Resources <span class="arrow-down-transparent"></span></a><ul class="dropdown-menu" role="menu" aria-labelledby="dLabel"><li><a href="/en/resources/analog-dialogue/lt-journal.html">LT Journal Archive</a></li><li><a href="/en/search.html?query=%2A&amp;resourceTypes=Technical%20Documentation~Technical%20Articles">Technical Articles</a></li><li><a href="/en/search.html?query=%2A&amp;resourceTypes=Education~Technical%20Book">Technical Books</a></li><li><a href="/en/search.html?query=%2A&amp;resourceTypes=Technical%20Documentation~Frequently%20Asked%20Question">FAQs</a></li><li><a href="/en/resources/media-center.html">Videos</a></li><li><a href="https://ez.analog.com/webinar">Webcasts</a></li><li><a href="/en/search.html?query=%2A&amp;resourceTypes=Application%20Note">Application Notes</a></li></ul></li><li class="hidden-sm hidden-md hidden-lg adi-link"><a href=""><strong>Analog.com</strong></a></li><li class="hidden-sm hidden-md hidden-lg ez-link"><a href="https://ez.analog.com"><strong>Engineer</strong>Zone</a></li><li class="hidden-sm hidden-md hidden-lg wiki-link"><a href="https://wiki.analog.com/"><strong>Wiki</strong></a></li><li class="hidden-sm hidden-md hidden-lg "><a href="/en/careers.html"><strong>Careers</strong></a></li></ul><ul class="nav navbar-nav navbar-right hidden-xs"><li class="subscribe"><a href="javascript:void(0);" class="email-subscribe-toggle" data-toggle="collapse" data-target="#subscribe">Subscribe</a></li></ul></nav></div></div></section><div id="subscribe" class="subscribe-mega collapse"><div class="bg-purple pt-lg hidden-xs hidden-sm visible-md visible-lg"></div><div class="container"><div class="row"><div class="legacy-component"><div class="col-lg-8 col-md-8 col-sm-12 col-xs-12"><a href="javascript:void(0);" class="subscribe-mega-close" data-toggle="collapse" data-target="#subscribe"><i class="fa fa-close"></i></a><h3>Subscribe</h3><p>Provide us with your email address to get Analog Dialogue delivered directly to your inbox!</p><form class="form-inline" data-eID="216807155" data-action="sub" data-subscription-url="http://www.analog.com/enSubscriptionURL"><div class="form-group"><input type="text" name="subscribe-email" placeholder="Enter Your Email Address" /></div><div class="alert"></div><div class="adi-consents" data-context="newsLetterSubscription"></div><div class="adi-subscribe__submit"><input type="submit" name="submit" class="btn btn-default home-btn" value="Submit" id="adi_subscribe--submit-button" disabled=""></div></form><input type="hidden" id="submit-url" name="Analog Dialogue Header-62bd7dd1-d660-42de-a3b9-c868061b6470" value="http://www.analog.com/enSubscriptionURL" /></div></div><div class="legacy-component"><div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><h3>Follow Us</h3><p>Join our Analog Devices Inc. community on Facebook to get exclusive content and much more!</p><a href="https://www.facebook.com/AnalogDevicesInc" class="fb-follow"><img loading="lazy" src="/en/_/media/facebook-circle.png?rev=3e6d8dc4977948c79087259d2c163ed1&amp;sc_lang=en" name='Analog Dialogue Header_62bd7dd1-d660-42de-a3b9-c868061b6470' /> Follow Us </a></div></div></div></div></div></header></div> 
+</div>
+            </div>
+        </div>
+    </header>
+    <!-- /#header -->
+    <!-- #content -->
+    <main role="main" id="main" tabindex="-1" class="main-content content">
+        <div id="content" class="container-fluid">
+            <div class="row">
+                    <div class="legacy-component">
+                        <div class="home analog-dialogue">
+                            <div class=" analogdialogue default-device bodyclass" data-comp-prefix="app-js__">
+                                <div class="legacy-container">
+                                    <div>
+
+
+
+<div class="legacy-component">
+    <div class="content article">
+            <div class="article-bg-heading"></div>
+        <div class="container article-container">
+            <div class="row">
+                <section class="col-lg-8 col-md-8 col-sm-12 col-xs-12 leftCol">
+                    <div>
+
+
+
+    <div class="legacy-component">
+        <div class="article-info-container clearfix">
+            <div class="article-info-left">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <div class="rr rr-left">
+                                <div>AUG 2018</div>
+                        </div>
+                        <div class="rr rr-right">
+                            <div>
+VOL 52                            </div>
+                        </div>
+                    </li>
+                    <li class="rr ma-last saveToMyAnalog">
+                        <button id="myAnalogWidgetBtn" class="widget-Btn" name="myAnalog">
+                            <img class="add-plus" src="https://assets2.analog.com/cms-assets/images/images/add.svg" alt="add" loading="lazy" />
+                            <img class="add-check" src="" alt="added" loading="lazy" />
+                            <img class="myAnalog-saveTo" src="https://assets2.analog.com/cms-assets/images/images/myAnalog-logo.svg" alt="myAnalog" loading="lazy" />
+                        </button>
+                    </li>
+                </ul>
+                <div id="myAnalog-widget" style="display:none"></div>
+                <script id="template-save-to-myAnalog-prelogin" type="text/x-handlebars-template">
+                        <div class="saveToMyAnalog widget">
+                            <div class="authenticate">
+                                <p class="message">{{message}}</p>
+                                <button class="btn btn-primary">{{loginToMyAnalog}}</button>
+                                <div class="other actions">
+                                    <span>{{dontHaveAnAccount}}</span>&nbsp;
+                                    <a href={{registerLink}}>{{registerNow}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </script>
+                <script id="template-save-to-myAnalog-postlogin" type="text/x-handlebars-template">
+                    <div class="saveToMyAnalog widget">
+                        <div class="saveTo createProject">
+                            <div class="tab-header">
+                                <ul>
+                                    <li data-tab="saveToWidget" class="active">{{saveTo}}</li>
+                                    <li data-tab="createProject">{{newProject}}</li>
+                                </ul>
+                                <span class="helper-text">* {{required}}</span>
+                            </div>
+                            {{#if RESOURCES}}
+                            <div class="selected-resources" id="selectedResources">
+                                <span class="count">0</span><span> {{selected}}</span>
+                            </div>
+                            {{/if}}
+                            <div class="save-to-widget tab active" id="saveToWidget">
+                                {{#if PST}}
+                                <label>* {{saveModelsTo}}</label>
+                                {{/if}}
+                                {{#if PDP}}
+                                <label>* <span class="productLabel">{{saveTo}}</span><span>{{saveProductTo}}</span></label>
+                                {{/if}}
+                                {{#if RESOURCES}}
+                                <label>* {{saveResourceTo}}</label>
+                                {{/if}}
+                                <div class="select-product dropdown">
+                                    <div class="selected-value">
+                                        <span>myAnalog</span>
+                                        <img class="angle down" alt="down" src="https://assets2.analog.com/cms-assets/images/images/data-arrow-open.svg" loading="lazy" />
+                                        <img class="angle up" alt="up" src="https://assets2.analog.com/cms-assets/images/images/data-arrow-open.svg" loading="lazy" />
+                                    </div>
+                                    <ul class="hide">
+                                        <li>myAnalog</li>
+                                        {{#if projects}}
+                                        {{#each projects}}
+                                        <li id="{{ id }}">{{ title }}</li>
+                                        {{/each}}
+                                        {{/if}}
+                                    </ul>
+                                    <div class="validation-message" style="display:none"></div>
+                                </div>
+                            </div>
+                            <div class="create-new-item-widget tab" id="createProject">
+                                <div class="input-control">
+                                    <label>* {{createNewProject}}</label>
+                                    <input type="text" placeholder="{{projectName}}" id="newProjectTitle" maxlength="128" />
+                                    <div class="validation-message" style="display:none"></div>
+                                </div>
+                                <div class="add item active">
+                                    <button class="outline-button"><img class="plus-icon" src="https://assets2.analog.com/cms-assets/images/images/plus.svg" alt="add" loading="lazy" />{{addDescription}}</button>
+                                    <textarea id="projectDescription"></textarea>
+                                    <div class="validation-message" style="display:none"></div>
+                                </div>
+                            </div>
+                            {{#if PST}}
+                            <div class="pst-table-name">
+                                <div class="input-control">
+                                    <label>* {{tableName}}</label>
+                                    <input type="text" placeholder="{{enterTableName}}" id="pstTableName" />
+                                    <div class="validation-message" style="display:none"></div>
+                                </div>
+                                <div class="add item active">
+                                    <button class="outline-button"><img class="plus-icon" src="https://assets2.analog.com/cms-assets/images/images/plus.svg" alt="add" loading="lazy" />{{addNote}}</button>
+                                    <textarea id="tableNote"></textarea>
+                                    <div class="validation-message" style="display:none"></div>
+                                </div>
+                            </div>
+                            {{/if}}
+                            {{#if RESOURCES}}
+                            <div class="add item active">
+                                <button class="outline-button"><img class="plus-icon" src="https://assets2.analog.com/cms-assets/images/images/plus.svg" alt="add" loading="lazy" />{{addNote}}</button>
+                                <textarea id="resourceNote"></textarea>
+                                <div class="validation-message" style="display:none"></div>
+                            </div>
+                            {{/if}}
+                            {{#if PST}}
+                            <div class="widget-footer single btn">
+                                <button class="btn btn-primary pst" id="saveProductToMyanalog">{{savePST}}</button>
+                            </div>
+                            {{/if}}
+                            {{#if PDP}}
+                            <div class="widget-footer single btn">
+                                <button class="btn btn-primary pdp" id="saveProductToMyanalog"><span class="productLabel">{{saveProduct}}</span><span>{{save}}</span></button>
+                            </div>
+                            {{/if}}
+                            {{#if RESOURCES}}
+                            <div class="widget-footer single btn">
+                                <button class="btn btn-primary resource" id="saveProductToMyanalog">{{saveResource}}</button>
+                            </div>
+                            {{/if}}
+                        </div>
+                        <div class="saved info hide" id="savedInfo">
+                            <h5>
+                                <span>{{savedTo}}</span>
+                                <img class="saved-myAnalog-logo" alt="myAnalog" src="https://assets2.analog.com/cms-assets/images/images/myAnalog-logo.svg" loading="lazy" />
+                            </h5>
+                            <div class="saved-message">
+                                {{#if PDP }}
+                                <h5><span class="productLabel">{{productSavedTo}}</span><span>{{resourceSavedTo}}</span> "<span id="savedTo"></span>"</h5>
+                                {{/if}}
+                                {{#if PST }}
+                                <h5>{{tableSavedTo}} "<span id="savedTo"></span>"</h5>
+                                {{/if}}
+                                {{#if RESOURCES }}
+                                <h5>{{resourceSavedTo}} "<span id="savedTo"></span>"</h5>
+                                {{/if}}
+                                {{#if PDP }}
+                                <div class="pcn-notification">
+                                    <div class="switch">
+                                        <input type="checkbox" class="toggle" name="PCNPDNNotification" id="pcnNotify" />
+                                        <label for="pcnNotify"></label>
+                                    </div>
+                                    <span><label for="pcnNotify">{{ turnOnPCNNotification }}</label></span>
+                                </div>
+                                {{/if}}
+                            </div>
+                        </div>
+                        <div class="widget-footer single hide" id="mySavedFooter">
+                            <a href="#" target="_blank">
+                                <img class="share-icon" src="https://assets2.analog.com/cms-assets/images/images/link.svg" alt="share-icon" loading="lazy" />
+                                {{#if PDP}}
+                                <span class="productLabel">{{viewMySavedProducts}}</span>
+                                <span>{{viewMySavedResources}}</span>
+                                {{/if}}
+                                {{#if PST}}
+                                <span>{{viewMySavedProducts}}</span>
+                                {{/if}}
+                                {{#if RESOURCES}}
+                                <span>{{viewMySavedResources}}</span>
+                                {{/if}}
+                            </a>
+                        </div>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+                    <div>
+
+
+    <div class="legacy-component">
+            <h1>Some Recent Developments in the Art of Receiver Technology: A Selected History on Receiver Innovations over the Last 100 Years</h1>
+
+
+
+
+<div class="legacy-component">
+    <p class="byline">
+            <a class="author_hyperlink" href="#author">
+                        by
+<strong>Brad Brannon</strong>            </a>
+            <span class="download">
+                <i class="far fa-file-pdf" aria-hidden="true"></i>
+                    <span>
+                        <a href="/media/en/analog-dialogue/volume-52/number-3/a-selected-history-on-receiver-innovations-over-the-last-100-years.pdf" target="_blank">Download PDF</a>
+                    </span>
+            </span>
+
+    </p>
+</div>
+        <article>
+            <h3>Part 1: The Early Days</h3>
+<p>While there were many contributors to the early days of wireless, Guglielmo Marconi is one of the more prominent. While he is known for his wireless technology, many people are less familiar with the business he built around wireless technology at the turn of the 19<sup>th</sup> century. For about 20 years after the start of the 1900s, he built a critical business that launched the world of wireless toward what we have today.</p>
+<figure><img alt="Figure 1" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-01.jpg?la=en&amp;rev=1024ce9e4b524e47842a2b0f458b4558&sc_lang=en" class="img-responsive" /><figcaption>Figure 1. Marconi demonstrating his technology.</figcaption></figure>
+<p>While his commercialized technology was not the most up to date, it was good enough despite rapid technological changes because he figured out how to use the technology available to him to enable a new industry. Marconi set out to deploy a worldwide network capable of sending and relaying messages wirelessly at a time when the world was in turmoil at the end of colonialism and the wars and disasters that pockmarked the start of the 1900s, including the sinking of the RMS Titanic in April of 1912. The role that wireless played in both the rescue of survivors and the dissemination of the news of that accident reinforced the importance of this fledgling technology. The importance of wireless technology wasn&rsquo;t missed by either the public or the military, notably Joseph Daniels, who later became the secretary of the U.S. Navy. In the U.S. and elsewhere, leaders such as Daniels felt that the military should nationalize radio to ensure that they had access to it during wartime. It must be kept in mind that during this period, the only usable spectrum was below 200 kHz or so. At least for a while things moved this direction, but after World War I, the government&rsquo;s control of wireless weakened, but not before the formation of the government sanctioned monopoly that created the Radio Corporation of America (RCA).<sup>1</sup></p>
+<p>By our expectations, the radios of Marconi&rsquo;s days were quite primitive. The transmitters employed spark gap devices (only later did they employ mechanical alternators) to generate the RF, but on the receiving end, the systems were fully passive and consisted of an antenna, resonant LC tuner, and some sort of detector. These detectors will be covered shortly, but they were either mechanical, chemical, or organic. Some of these systems employed a battery simply to bias them, but not to provide any circuit gain as we might recognize today. The output from these systems was supplied to some sort of headset to convert the signal to audio, which was always very weak and just a simple click or buzz at best.</p>
+<p>Because these systems provided no gain on the receiving end, range was determined by the amount of transmitted power, the quality of the receiver, the experience of the operator to adjust it, and, of course, atmospheric conditions. What Marconi realized was that given a reasonably predictable range, a network of stations could be built that could be utilized to reliably communicate information across both continents and oceans. This included installations both on land and at sea. Marconi set off to install his wireless stations across the globe and at sea, both on passenger ships and cargo ships. By installing systems on seafaring ships, he not only enabled them to communicate with their commercial interests on shore, but this also allowed Marconi to fill critical gaps in his network by providing relay and redundancy where needed. </p>
+<p>One of the technologies that Marconi possessed was that of early vacuum tubes. John Ambrose Fleming, the recognized inventor of the vacuum tube, worked for the Marconi Corporation, but Fleming and Marconi&rsquo;s analysis at the time was that their existing technology was sufficient at detecting radio signals. Furthermore, they felt that the benefit of his discovery wasn&rsquo;t worth the additional expense or the batteries to run the valve tubes. Marconi already possessed several technologies that could detect a signal and didn&rsquo;t require the high power to run the filament and plate that a tube needed. Thus, they passed on this technology initially.</p>
+<figure><img alt="Figure 2" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-02.jpg?la=en&amp;rev=638e48a6c04a43b89ff62a632ead8f7a&sc_lang=en" class="img-responsive" /><figcaption>Figure 2. The first Fleming valve prototypes.</figcaption></figure>
+<p>However, the so-called Father of Radio, Lee de Forest, took this technology and realized what the potential was. By insertion of a screen grid between the filament and the plate, he could not only rectify a signal, he could also control the amount of current in the plate. This enabled amplification. Even though there is evidence that he didn&rsquo;t understand how his Audion tube worked, he did realize the potential and did his best to capitalize on his invention both as a technology and as a value-added service similar to that created by Marconi. Through various business ventures, de Forest attempted to both manufacture and sell his vacuum tubes and to set up wireless networks like Marconi&rsquo;s. However, these ventures were doomed to failure not because of bad technology, but because de Forest&rsquo;s business partners were often less than honest, and often left him standing alone answering for the wrong doing of others. In the end, de Forest had to sell the rights to his own invention for others to profit from its capabilities.</p>
+<figure><img alt="Figure 3" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-03.jpg?la=en&amp;rev=1ab2a3c5c19e493d89af905b3df4a220&sc_lang=en" class="img-responsive" /><figcaption>Figure 3. First audio triode de Forest tube.</figcaption></figure>
+<p>One of those who early on realized the vacuum tube&rsquo;s possibilities was Edwin Armstrong. While he was still in high school, a family friend gave him one of de Forest&rsquo;s tubes to play with. Armstrong had already developed a reputation as an expert in wireless and, having built his own wireless station in the family home, quickly figured out how to utilize the device to develop a better receiver. While in college he continued to develop this technology, and developed the regenerative receiver that provided superior performance compared to the passive systems employed by all wireless stations of the day.</p>
+<p>David Sarnoff was a senior figure in the American Marconi Corporation. His rise within the company was a direct result of a long-cultivated relationship with Marconi himself and a dedicated work ethic. Sarnoff began his career as an errand boy for AMC and by chance met Marconi on one of his visits to America. Sarnoff so impressed Marconi that he enabled him to rise to power within the company, with Sarnoff eventually taking senior leadership in both AMC and later in RCA. While visiting engineering labs around New York, he chanced across Armstrong. Armstrong&rsquo;s knowledge of wireless and the capabilities of his regenerative receiver helped forge a long-term professional and personal relationship between the two. </p>
+<p>When WWI came, Armstrong felt the call of duty to enlist. By this time, however, he had developed a reputation as a wireless expert and, instead of being assigned combat duties, was assigned the role of inspecting and installing radios for combat services throughout France. His duties allowed him access to equipment and labs, as well as various technologies that enabled him to continue his research activities on the side. During an air raid in early 1918, he made a series of discoveries that led him to synthesize the superheterodyne receiver. Throughout 1918 he developed his concept and, by November, met with a close group of friends to demonstrate a prototype of the superheterodyne radio. They were impressed and urged him to continue his developments. By the end of 1918 the war was ending and, prior to returning to the U.S., Armstrong filed for a French patent on December 30, 1918. On returning to the U.S., he spent a few weeks recovering from an illness that delayed his filing for a U.S. patent. Eventually, he filed a U.S. patent for the superheterodyne receiver on February 8, 1919.</p>
+<p>While Marconi&rsquo;s vision for wireless focused only on commercial information carried by telegraphy between two parties, Sarnoff had a much broader vision&mdash;to send a signal to many parties. Sarnoff&rsquo;s vision was not shared broadly early on, but eventually others realized that this new technology offered a means by which news and entertainment could easily be delivered over great distances, including the rural reaches of America. To help drive his vision, Sarnoff and his team conceived of broadcasting the Dempsey vs. Carpentier boxing match on July 2, 1921. The success of this broadcast enabled others to see the potential of broadcast radio as we know it today.</p>
+<p>However, the real challenge of the time was technical. Early radios were difficult to use and didn&rsquo;t function very well. This is where the story continues for Armstrong, Sarnoff, and the Radio Corporation of America. Through the relationship developed earlier and the patents that RCA had acquired, including that of the superheterodyne, radio technology had been simplified enough to make it both portable and easy enough for anyone to use. From a technology point of view, the superheterodyne architecture was key to this success and this largely remains true today.</p>
+<figure><img alt="Figure 4" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-04.jpg?la=en&amp;rev=e86dce3303384fc99deee64089fec805&sc_lang=en" class="img-responsive" /><figcaption>Figure 4. Edwin Armstrong and his wife Marion on their honeymoon with the first portable radio.</figcaption></figure>
+<h3>Detectors</h3>
+<p>A radio must have some way of producing an output that conveys meaningful information. In the early days, this was a sympathetic spark created in the receiving loop antenna. It was quickly realized that a more sensitive way of converting the radiated energy into a meaningful signal was required. Early technology was quite limited and often leveraged a wide range of properties including chemical, mechanical, and electrical. </p>
+<p>In the very beginning, one of the first detectors used was called a coherer detector and was based on the discoveries of a Frenchman named &Eacute;douard Branly. The coherer consisted of two metal plates closely spaced with a supply of metal filings. As the RF signal presented itself to the plates, the metal filings adhered to the plates, closing an electrical circuit. This worked quite well for the detection, but once the RF signal was removed, the filings tended to remain attached to the plates. To solve this problem, some sort of tapper was arranged to hit the side of the device to force the filings to dislodge. This crude detector was effective yet bulky to use and operate because of this. Despite this, it was in use as late as 1907.</p>
+<figure><img alt="Figure 5" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-05.jpg?la=en&amp;rev=9ccddcb2c2cd41849db6cb74f2ba82b9&sc_lang=en" class="img-responsive" /><figcaption>Figure 5. Coherer device.</figcaption></figure>
+<figure><img alt="Figure 6" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-06.jpg?la=en&amp;rev=8beb65c3880842318978d2213e8004d6&sc_lang=en" class="img-responsive" /><figcaption>Figure 6. Coherer receiver schematic.<sup>2</sup></figcaption></figure>
+<p>A more practical solution was the electrolytic detector. This device consisted of a very fine platinum wire immersed in a solution of sulfuric or nitric acid. A battery was used to bias this circuit just to the point of electrolysis. This formed gas bubbles on the surface of the platinum wire, causing the current to drop. If the RF current was coupled into this circuit, it would modulate the electrolysis and cause the current to vary in relation to the strength of the coupled RF signal. This technique was developed by Fessenden and in common use from 1903 until 1913. One variation of this developed by de Forest was the <em>responder</em>, which consisted of two metal plates immersed in a solution of lead peroxide.</p>
+<figure><img alt="Figure 7" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-07.jpg?la=en&amp;rev=e658037fb80f481389c12a09a79ef06e&sc_lang=en" class="img-responsive" /><figcaption>Figure 7. Electrolytic detector.</figcaption></figure>
+<figure><img alt="Figure 8" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-08.jpg?la=en&amp;rev=57e10bfaecbb4202b6686f46db50bfd0&sc_lang=en" class="img-responsive" /><figcaption>Figure 8. Electrolytic radio receiver.</figcaption></figure>
+<p>Marconi preferred another approach called the magnetic detector. These devices were affectionately referred to as a <em>Maggie</em> by their users. They worked by creating an endless loop of steel wire that was magnetized by permanent magnets while being circularly rotated. This magnetized portion of the wire was passed through a loop of wire connected to an antenna. The RF field in this coil would demagnetize the wire according to the received signal level present. The variations in the magnetic field in the wire was then picked up by another coil that was connected to an ear piece that provided an audible version of the RF signal. This approach was used by all Marconi installations until 1912, including on the RMS Titanic.</p>
+<figure><img alt="Figure 9" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-09.jpg?la=en&amp;rev=b14b52bf31684d7cb7b57a3ded812038&sc_lang=en" class="img-responsive" /><figcaption>Figure 9. Magnetic detector as Marconi would have used.<sup>3</sup></figcaption></figure>
+<figure><img alt="Figure 10" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-10.jpg?la=en&amp;rev=abbe6e3396f24188bca4b4205471e075&sc_lang=en" class="img-responsive" /><figcaption>Figure 10. Schematic of a magnetic detector radio.</figcaption></figure>
+<p>Another common type detector was the crystal detector, which remained popular until around 1925. This type of popular device was often referred to as a <em>cat whisker</em> and was basically an early semiconductor junction fashioned out of various types of mineral. Typical minerals included galena (PbS), iron pyrite (FeS<sub>2</sub>), molybdenite (MoS<sub>2</sub>), and carborundum (SiC). Small samples of these rocks were fashioned in a metal cup with a fine wire making a point contact on the rock. This contact could be moved and placed at various locations on the rock in search of the best operation. Crystal radios are still available today; the circuit is identical to that available 100 years ago, with the exception that a manufactured semiconductor diode replaces the <em>cat whisker</em>. One advantage of crystal detectors is that these devices provide more of a linear detection, which became important as AM broadcast began. This made voice communication possible, while earlier transmissions were only sent by Morse code.</p>
+<figure><img alt="Figure 11" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-11.jpg?la=en&amp;rev=8cffeb7e9e914b18ad8df830d7b61539&sc_lang=en" class="img-responsive" /><figcaption>Figure 11. Galena cat whisker detector.</figcaption></figure>
+<figure><img alt="Figure 12" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-12.jpg?la=en&amp;rev=6c896b33d9e94655bd6ce881f527d71e&sc_lang=en" class="img-responsive" /><figcaption>Figure 12. Typical crystal radio schematic.<sup>4</sup></figcaption></figure>
+<p>Another type of detector was created in 1904 by an engineer working for Marconi. John Ambrose Fleming discovered that by adding a plate to an Edison incandescent bulb he had created a rectifier or <em>valve</em> as it is often called. Marconi and Ambrose believed that their existing solution for detection, typically a <em>Maggie</em>, was better than that offered by the Fleming valve and they temporarily discontinued their efforts to find a better solution until after 1912. Others, including de Forest, however, did see the immediate value and picked up where Fleming and Marconi left off by adding a screen grid between the filament and plate. This work was patented and published in 1906. While de Forest realized the value of his invention for improved radios, he was not able to capitalize on this, partly due to his business partner&rsquo;s misdeeds and partly due to various infringement cases against his patent.</p>
+<h3>Part 2: Receiver Architectures</h3>
+<p>One key point early radio pioneers like de Forest and Armstrong understood was that their successes were determined by a solid, reliable detector; in the early days, this was largely the wireless operator whose technical and auditory skills made it possible. However, as the industry grew, other aspects became important, such as including linearity and bandwidth. </p>
+<p>In 1912, to address these issues, de Forest figured out regeneration and how a receiver could benefit from this technique. At nearly the same time, Armstrong made similar discoveries, and he noted that if energy was coupled from the plate circuit back into the screen tuner, significant amplification occurred as the amplifier response peaked prior to free oscillation. These discoveries set off a multidecade long patent dispute as each inventor claimed their invention came first. </p>
+<p>Regardless, the key advantage of the regenerative receiver was that, in addition to the very high levels of gain achieved, the receiver facilitated connecting the output to a speaker as opposed to a small headphone with a weak audio output as had previously been used. Armstrong noted that, with this arrangement, he could easily copy Marconi&rsquo;s installation in Ireland from his New York lab, whereas Marconi typically required a relay station to achieve transatlantic coverage. After he was satisfied with his results, Armstrong invited Sarnoff to his lab to share his discoveries. With his regenerative setup, they spent the night DXing and received signals from the West Coast and into the Pacific with ease. This was a major enhancement for detector technology. The biggest challenge for the regenerative receivers was adjusting the feedback for proper operation; a challenging task even for an experienced operator. As early models of the regenerative and super-regenerative radios were put into productions, this challenge became apparent and required resolution before radio technology could be put into widespread usage. </p>
+<p>World War I eventually drew the U.S. into the engagement and Armstrong received duty in France, where he was responsible for installing technology in the field. This afforded him the opportunity to continue his research where he conceived of the superheterodyne architecture in February of 1918 after working with colleagues in both France and Britain. Eventually, this architecture resolved many of the tedious adjustments required in prior architectures like the super-regenerative type without sacrificing performance.</p>
+<p>Armstrong continued to develop the superheterodyne architecture throughout 1918, which solved many of the challenges of the regenerative and the super-regenerative receivers. This development enabled easy to operate radios consistent with those in production today. While a superheterodyne receiver is not strictly a detector, it does facilitate better, more consistent detection by including gain and additional selectivity, and by presenting a fixed IF regardless of the RF frequency being monitored. This allows the detector to be optimized without concern of degradation as a function of the desired RF frequency, which was a huge challenge of early radio and continues to challenge radio designers today, albeit at much higher frequencies even as we continue to explore new architectures including zero-IF and direct RF sampling.</p>
+<figure><img alt="Figure 13" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-13.jpg?la=en&amp;rev=7a7f960713ae4967ac7425e42944d0bc&sc_lang=en" class="img-responsive" /><figcaption>Figure 13. Superheterodyne patent figures.</figcaption></figure>
+<p>These advantages have cemented the importance of heterodyne architectures, and this continues today. While the implementing technology has moved from tube to transistor to integrated circuit, the architecture remains key to many modern systems.</p>
+<p>Outside of the shifting of technology types, little changed in radio architectures until the 1970s, with the advent of general-purpose DSPs and FPGAs. Detector functions moved from linear detector elements like diodes, discriminators, and PLLs to analog-to-digital converters followed by digital signal processing. This enabled significantly more capability not possible with older technology. While data converters followed by DSP can and do perform traditional AM and FM<sup>5</sup>&nbsp;demodulation, use of digital processing techniques enables complex digital demodulation used widely for digital television, HD Radio<sup>&reg;</sup> in the United States, and DAB in Europe and other regions around the world. </p>
+<p>In early digital systems, the IF stage was typically converted to a baseband signal with an I/Q demodulator and then digitized by dual low frequency ADCs, as shown in Figure <span>14</span>. These early ADCs were relatively low bandwidth and therefore radios tended to be narrow-band systems. While these systems are workable for low bandwidth systems, they suffered from quadrature mismatches that caused image rejection issues that had to be corrected for by analog and later digital techniques. Because early systems were not highly integrated, it was difficult to maintain balance between I/Q, which resulted in image errors (quadrature). This was complicated due to shifts over time and temperature that had to be carefully accounted for. Even in highly integrated systems, I/Q balance is typically limited to 40 dB or worse image rejection without some sort of corrective algorithm.</p>
+<figure><img alt="Figure 14" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-14.png?la=en&amp;rev=bb0cd40fcdc74677beb3a332f6dedc5c&sc_lang=en" class="img-responsive" /><figcaption>Figure 14. Dual conversion baseband sampling.</figcaption></figure>
+<p>By the mid-&rsquo;90s, converter technology began to improve enough that baseband I/Q sampling could be replaced with IF sampling. This had several advantages. First, the demodulator and baseband converter pair could be eliminated and replaced with a single ADC saving power and board space. More importantly, the errors associated with analog I/Q extraction could be eliminated. Of course, complex data was still required for DSP processing, but it could easily be extracted digitally by using digital downconverters (DDCs) like the <a href="/en/products/ad6624.html">AD6624</a> that provide perfect quadrature that doesn&rsquo;t drift over time or temperature.</p>
+<p>Initially these IF sampling converters were narrow band, but in the late &rsquo;90s, wideband IF sampling converters became available, including devices like the <a href="/en/products/ad9042.html">AD9042</a> and <a href="/en/products/ad6645.html">AD6645</a>. These new devices could sample IF frequencies as high as 200 MHz and provide a signal bandwidth of up to 35 MHz. This became interesting enough that many high performance receivers began adopting IF sampling to both simplify the radio and to improve performance. One of the many advantages of this technique is that one receiver signal path could process multiple RF carriers.<span><sup>6</sup></span>&nbsp;This had the effect of allowing one radio to replace many analog narrow-band radios and greatly reduce the cost of ownership in many telecommunications applications. Any application that processed multiple independent (or dependent) RF signals could benefit from this type of architecture, which allowed for a reduction in cost, size, and complexity. Individual RF carriers are easily sorted out in the digital data stream where they could be independently processed as required. Each signal could be modulated differently with unique information or the signal bandwidth could be widened to increase the data throughput. Integrated mixer technology, including the <a href="/en/products/adrf6612.html">ADRF6612</a> and <a href="/en/products/adrf6655.html">ADRF6655</a>, continues to move IF sampling heterodyne radios forward by providing highly integrated and low cost solutions when combined with new IF sampling converters like the <a href="/en/products/ad9684.html">AD9684</a> and <a href="/en/products/ad9694.html">AD9694</a>. These new ADCs include digital downconverters (DDCs) that not only digitally filter unneeded spectrum, but that also digitally extract out the I/Q components.</p>
+<figure><img alt="Figure 15" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-15.png?la=en&amp;rev=55a34b3e313646878bcf6bda31e37d9a&sc_lang=en" class="img-responsive" /><figcaption>Figure 15. Typical IF sampling architecture.</figcaption></figure>
+<h3>Side by Side: Then and Now</h3>
+<p>Armstrong&rsquo;s patent<span><sup>7</sup></span>&nbsp;states that &ldquo;It is well known that all detectors rapidly lose their sensitiveness as the strength of the received signal is decreased, and that when the strength of the high frequency oscillation falls below a certain point, the response of a detector becomes so feeble that it is impossible to receive signals.&rdquo; Armstrong claimed that as amplitude fell or as frequency increased, detector sensitivity was reduced. He and others sought a method to extend the usefulness of radio to higher frequencies and to improve overall performance. </p>
+<p>Based on earlier work with tubes such as the Audion tube and regeneration, Armstrong realized that he could convert the incoming frequency to one that worked more efficiently with the detectors available. Furthermore, gain could be applied to increase not only the RF signal level, but the audio signal level provided to the user. </p>
+<p>Figure <span>16</span> shows one of the patent&rsquo;s diagrams, which &ldquo;illustrates in detail the utilization of [Armstrong&rsquo;s] method using a tuned amplifier system wherein 21 is the source of the incoming oscillations (signals), and a vacuum tube rectifying system 22-23-25 converts the combined oscillations of the incoming and those from the separate heterodyne 24 (local oscillator). The circuit 26-27 is tuned to the converted combination of the two oscillations (desired mixer product). A multitube high frequency amplifier 28 amplifies the resulting energy heterodyned and detected by the vacuum tube system 29 and indicated by the telephones 30.&rdquo;<sup>7</sup> By using this method, Armstrong was able to take the RF energy and shift the frequency to one that could easily and efficiently be detected as well as provide sufficient amplification for a comfortable audio level. In his patent, he goes on to show that multiple stages of heterodyning can be applied, which has the advantage of providing additional selectivity and higher levels of gain without the concern of uncontrolled feedback causing oscillation&mdash;a problem that plagued earlier radio architectures such as the regenerative receiver.</p>
+<figure><img alt="Figure 16" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-16.jpg?la=en&amp;rev=58753655ad5745568f3632922acc3ceb&sc_lang=en" class="img-responsive" /><figcaption>Figure 16. Armstrong&rsquo;s superhet diagram.</figcaption></figure>
+<p>The following figures help to better compare tube technology to a contemporary implementation and show how modern designs remain similar to the original design proposed 100 years ago.</p>
+<figure><img alt="Figure 17" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-17.png?la=en&amp;rev=fd8a53920a6145babc6a69522da1805a&sc_lang=en" class="img-responsive" /><figcaption>Figure 17. Tube vs. contemporary superhet.</figcaption></figure>
+<p>Figure 17 shows both circuits placed side by side. The first tube stage, according to Armstrong&rsquo;s patent, consists of a vacuum tube rectifying system. This first stage combines the mixing of the desired signal with the LO by taking advantage of the rectifying properties of the tube to produce the typical mixing products. Armstrong suggested 10 MHz (shown in Figure 18) as an RF because this was beyond what detectors of his time could respond to and because it represented a technical challenge to him during the period when he was developing the superheterodyne receiver. Modern receivers typically include at least one RF amplifier prior to the mixer to provide lower noise and better sensitivity as is shown in the lower signal chain. These devices are typically very low noise FET designs optimized for the frequency range of operation. The only fundamental difference between what Armstrong originally patented and modern designs is the separate RF amplifier placed before the mixer. By WW2, it was common to find tube type designs with front-end amplifiers equivalent to today&rsquo;s FET front ends.</p>
+<figure><img alt="Figure 18" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-18.png?la=en&amp;rev=2e3d4025bc964b839b408d3bbc7603be&sc_lang=en" class="img-responsive" /><figcaption>Figure 18. (a) Tube front end, (b) front end.</figcaption></figure>
+<p>He suggested that this incoming RF signal could be combined with an LO of perhaps 10.1 MHz to produce a new tone at 0.1 MHz during the first stage. We recognize this as the sum and difference products of a typical mixer, as shown in Figure 19. In the tube schematic in Figure 18, the LO was coupled directly into the input circuitry where the nonlinear behavior of the tube produced these products. One challenge this original design would have posed would have been unintended radiation of the LO by way of the direct coupling to the antenna. Contemporary designs are less susceptible to this radiation, although not completely, because, as shown in Figure 19, the LO is coupled into a mixer isolated from the input by the front-end amplifier. One improvement Armstrong proposed was that Amplifier 1 could also be used as the local oscillator in addition to the detector by taking advantage of feedback from the plate into the grid circuit similar to what he and de Forest had accomplished with the regenerative receiver. This would have created a compact front-end function. In today&rsquo;s circuitry, the mixer, local oscillator, and RF and IF amplifiers are often included on a single IC. These devices are widely available for many different applications from consumer to industrial needs.</p>
+<figure><img alt="Figure 19" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-19.png?la=en&amp;rev=782a25e4c4244000bc398eaddba1c061&sc_lang=en" class="img-responsive" /><figcaption>Figure 19. IF amplifier stage.</figcaption></figure>
+<p>For both the tube and monolithic front ends, the mixing process produces sum and differences between the RF and LO. In Armstrong&rsquo;s case, this meant 0.1 MHz and 20.1 MHz. In addition, it is common to have both RF and LO leakage to the output as well. The unwanted terms created by the mixer must be filtered out in order to receive the desired signal. Since the bandwidth of the detector was limited, Armstrong focused in the difference term, 100 kHz. It is likely that his 2-stage IF amplifier provided some filtering of the other terms in addition to the resonant L-C structures he included. A contemporary IF amplifier will include some sort of IF filter as well. Figure 19 shows a basic LC filter, but, often, some form of high Q filter is used. Narrow-band radios often use quartz or ceramic filters for the IF stage; wider band designs often take advantage of SAW or BAW depending on the requirements. Often, this filter is referred to as a roofing filter and is used to protect following stages from strong out-of-band signals.</p>
+<p>With a well filtered and strong IF signal, Armstrong could now easily detect what were once weak RF signals outside of the bandwidth of his detector. Now at an IF, they easily matched what detectors were capable of. In the case of the tube, these signals were rectified and then amplified so that they could drive a speaker directly, at least for amplitude modulated signals. In contemporary receivers, an analog-to-digital converter samples the analog IF and produces a digital equivalent, which is then processed digitally (including demodulation). In the case of an audio application, it can then be converted back to analog with a digital-to-analog converter to drive a speaker if necessary.</p>
+<figure><img alt="Figure 20" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-20.png?la=en&amp;rev=126beb26038145afbba49b4a04c8d7ee&sc_lang=en" class="img-responsive" /><figcaption>Figure 20. Detector.</figcaption></figure>
+<p>While both tube and transistor versions of these radios can achieve a similar result, contemporary designs have a range of advantages. Notably, modern designs are much smaller and the power requirements are greatly reduced. While portable tube radios existed from the beginning, transistors enabled pocket size radios. Integrated circuits enabled single-chip radios for a wide range of applications from short-range wireless like the <a href="/en/products/adf7021.html">ADF7021</a> through high performance offered by way of <a href="/en/products/ad9371.html">AD9371</a>. In many cases, this includes both the receiver and the transmitter.</p>
+<figure><img alt="Figure 21" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-21.png?la=en&amp;rev=2f7b9d0a33c44d82a6fca2f846655812&sc_lang=en" class="img-responsive" /><figcaption>Figure 21. ADF7021 short-range wireless (simplified).</figcaption></figure>
+<figure><img alt="Figure 22" src="/en/_/media/images/analog-dialogue/en/volume-52/number-3/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years/199327_fig-22.png?la=en&amp;rev=fa896757723b4f2f8a76e19319a39416&sc_lang=en" class="img-responsive" /><figcaption>Figure 22. AD9371 ZIF transceiver.</figcaption></figure>
+<p>Since monolithic radios typically utilize analog-to-digital and digital-to-analog converters, these readily facilitate complex modulation. Tube type radios historically were limited to basic modulation types such as AM and FM. When data converters are added to the radio, as is typically done on monolithic radios, new forms of modulation can be introduced by way of digital techniques including spread spectrum and OFMD, which are at the heart of most modern communications (digital TV, HD Radio, DAB, cell phones) that we rely on daily.</p>
+<p>As radio technology continues to evolve, more advancements will come that may enable radio architectures or provide functions not currently possible. Today we have a wide selection of IF sampling superheterodyne and zero-IF architectures in highly integrated forms. Other architectures on the horizon include direct RF sampling where the signal is directly converted to digital without analog downconversion. As radio technology continues to evolve, the number of available options will grow. However, it is likely that some form of heterodyne will be with us for some time to come.</p>
+<h3>Conclusion</h3>
+<p>In the 100 years of the superheterodyne radio, little has changed in the architecture except the implementation technology. We have witnessed many changes through the years in the medium on which radios have been constructed as we&rsquo;ve seen technology migrate from tubes to transistors to monolithic integrated circuits. These changes have enabled possibilities that were only a daydream to the early radio pioneers and on which our daily lives are so closely tied to. </p>
+<p>One of the key elements that has made this possible is the detector fulfilled by the high speed ADC in today&rsquo;s radio technology. Improvements over the last few years in data converter and other technology has ushered in our connected world, which is changing our daily lives and the fabric of modern society. The exciting part is that this core technology is continuing to evolve, which will continue to enable new wireless solutions that may not be known today. The next 100 years carry as much potential to the next generation of wireless as Armstrong and Levy&rsquo;s inventions provided to the last 100 years.&nbsp;</p>
+                    <h3>
+                        References
+                    </h3>
+<p style="text-align: justify;"><span><sup>1</sup></span>&nbsp;Tom Lewis. <em>Empire of the Air: The Men Who Made Radio</em>. Harper Collins, 1991.</p>
+<p style="text-align: justify;"><span><sup>2</sup></span> F1jmm. <span><a href="https://commons.wikimedia.org/w/index.php?curid=6227620" target="_blank">Recepteur tube limaille</a></span><span>. March 1902.</span></p>
+<p style="text-align: justify;"><span><sup>3</sup></span><span> By Alessandro Nassiri. </span><span><a href="https://commons.wikimedia.org/w/index.php?curid=48373043" target="_blank">Detector magnetico Marconi 1902&mdash;Museo scienza e tecnologia Milano</a></span><span>. Museo nazionale scienza e tecnologia Leonardo da, December 2012.</span></p>
+<p style="text-align: justify;"><span><sup>4</sup></span> JA.Davidson. <a href="https://commons.wikimedia.org/w/index.php?curid=7933701" target="_blank">CrystalRadio</a>. September 2007.</p>
+<p style="text-align: justify;"><span><sup>5</sup></span> Fred Harris. &ldquo;Exact FM Detection of Complex Time Series.&rdquo; Electrical and Computer Engineering Department, San Diego State University.</p>
+<p style="text-align: justify;"><span><sup>6</sup></span> Walter Tuttlebee. <em>Software-Defined Radio: Enabling Technologies</em>, Chapter 4: Data Conversion in Software Defined Radios. Wiley, 2002.</p>
+<span><sup>7</sup></span><span> Edward H. Armstrong. U.S. patent 1342885, &ldquo;Method of Receiving High Frequency Oscillations.&rdquo; Application filed February 8, 1919, issued June 8, 1920.</span>                    </article>
+    </div>
+
+
+
+
+
+
+
+    <div class="legacy-component">
+        <article>
+                    <h3 id="author">Author</h3>
+            
+                <section class="author clearfix">
+                        <img class="img-responsive" src="/en/_/media/images/analog-dialogue/en/authors/brad-brannon.jpg?rev=1d066bbaa930423aa4197ae6f48193f0&amp;sc_lang=en" alt="Brad Brannon" loading="lazy" />
+                    <div class="author-details">
+                            <p class="name">Brad Brannon</p>
+                        <p class="social">
+                                <a href="mailto:brad.brannon@analog.com" id="dialogue-author-email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                                                                                </p>
+                            <p class="details">
+                                Brad Brannon has worked at ADI for 37 years following his graduation from North Carolina State University. At ADI he has held positions in design, test, applications, and system engineering. Currently Brad is developing reference designs for O-RAN and supporting those customers. Brad has authored several articles and application notes on topics that span clocking data converters, designing radios, and testing ADCs. 
+                            </p>
+                    </div>
+                </section>           
+        </article>
+    </div>
+</div>
+                </section>
+                <section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 rightCol">
+                    <aside>
+                            <h2>Related Content</h2>
+                        <div>
+
+
+
+
+
+
+
+    <!--AL-19019 :Extra white space was added in section class name for related content on Analog dialogue -->
+    <div class="legacy-component">
+        <section class="related-products">
+            <div class="related-products__header">
+                        <h2>
+                            Products
+                                <span class="count"></span>
+                        </h2>
+
+            </div>
+            <ul>
+                                <li>
+                                    <a href="https://www.analog.com/en/products/ad9371.html" target="_blank">AD9371</a>
+                                    <p class="product-details">Integrated, Dual RF Transceiver with Observation Path</p>
+                                </li>
+
+            </ul>
+        </section>
+    </div>
+
+
+
+
+
+    <div class="legacy-component">
+        <section class="related-resources ">
+            <div class="related-resources__header">
+                        <h2>
+                            Resources
+                                <span class="count"></span>
+                        </h2>
+
+            </div>
+            <ul>
+                                        <li>
+                                            <span>Technical Articles</span>
+                                            <a href="/en/resources/technical-articles/an-interview-with-analog-devices-discussing-rf-electronics-for-phased-array-applications.html" target="_blank" >An Interview with Analog Devices Discussing RF Electronics for Phased Array Applications</a>
+                                        </li>
+
+            </ul>
+        </section>
+    </div>
+
+
+
+    <div class="legacy-component">
+        <section class="related-categories">
+                    <h2>Product Categories</h2>
+
+
+            <ul>
+                            <li class="accordionGroup">
+                                <div class="accordionGroup__toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#Category-1" aria-expanded="false">
+                                    <a href="/en/product-category/rf-microwave.html" target="_blank">
+                                        RF and Microwave
+                                            <span>(2)</span>
+                                    </a>
+                                        <span class="accordionGroup__toggle__icon" />
+                                </div>
+
+                                    <div id="Category-1" class="accordionGroup__body collapse" aria-expanded="false">
+                                        <div class="accordionGroup__body__inner">
+                                            <ul>
+                                                        <li>
+                                                            <a href="/en/product-category/wideband-transceivers-ic.html" target="_blank">Wideband Transceiver IC</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/en/product-category/integrated-transceivers-transmitters-receivers.html" target="_blank">RF Integrated Transmitters, Receivers, and Transceivers</a>
+                                                        </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </li>
+
+            </ul>
+        </section>
+    </div>
+
+
+
+    <div class="legacy-component">
+        <section class="related-markets-and-technologies">
+                    <h2>Markets and Technologies</h2>
+
+
+            <ul>
+                            <li class="accordionGroup">
+                                <div class="accordionGroup__toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#MarketTechnology-1" aria-expanded="false">
+                                    <a href="/en/solutions/wireless-communications.html" target="_blank">
+                                        Wireless Communication Solutions
+                                            <span>(1)</span>
+                                    </a>
+                                        <span class="accordionGroup__toggle__icon" />
+                                </div>
+
+                                        <div id="MarketTechnology-1" class="accordionGroup__body collapse">
+                                            <div class="accordionGroup__body__inner">
+                                                <ul>
+                                                            <li>
+                                                                <a href="/en/solutions/wireless-communications/software-defined-radio.html" target="_blank">Software Defined Radio (SDR)</a>
+                                                            </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                            </li>
+
+            </ul>
+        </section>
+    </div>
+
+
+
+
+
+
+</div>
+                    </aside>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript">
+
+    var analyticsObject = {"pageInformation":{"pageName":"Some Recent Developments in the Art of Receiver Technology: A Selected History on Receiver Innovations over the Last 100 Years","itemId":"399a6593-4d43-499e-b9ef-d0b793d1245a","pageUrl":"https://www.analog.com/en/resources/analog-dialogue/articles/a-selected-history-on-receiver-innovations-over-the-last-100-years.html","pageCategory":"Analog Dialogue Article Page","previousPageUrl":"https://iamatallia.github.io/","pageType":"Analog Dialogue Article Page","isProduct":false}};
+    </script>
+    <script>
+        let userLoggedState = false;
+        try {
+            const savedAuthToken = localStorage.getItem('active-tokens');
+            if (savedAuthToken) {
+                const activeTokenObject = JSON.parse(savedAuthToken);
+                if (activeTokenObject && activeTokenObject['my'] && activeTokenObject['my']['token']) {
+                    var base64Url = activeTokenObject['my']['token'].split('.')[1]
+                    var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+                    var jsonPayload = decodeURIComponent(
+                        atob(base64)
+                            .split('')
+                            .map(function (c) {
+                                return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                            })
+                            .join('')
+                    )
+                }
+                const decodedToken = JSON.parse(jsonPayload)
+                const currentTimestamp = Math.floor(Date.now() / 1000);
+                if (!(decodedToken.exp && currentTimestamp > decodedToken.exp)) {
+                    userLoggedState = true;
+                }
+            } else {
+                const tempAuthStatusKey = 'isAuthenticated';
+                const cookies = document.cookie.split( '; ' );
+                const cookieOptions = 'domain=.analog.com; path=/; secure;';
+	            const tempAuthStatus = cookies.find( ( cookie ) => cookie.includes( tempAuthStatusKey ) )
+                                             ?.slice( ( tempAuthStatusKey.length + 1 ) ) || null;
+        	    
+        	    // Updating 'isLoggedIn' only for the first page visit post login redirect
+        	    if ( tempAuthStatus ) {
+            		userLoggedState = tempAuthStatus === 'true';
+
+                    // Delete 'isAuthenticated' cookie
+                    document.cookie = `${tempAuthStatusKey}=; expires=${new Date().toUTCString()}; ${cookieOptions}`;
+        	    }
+        	}
+        }
+        catch (error) {
+            console.log(error)
+        }
+        const localAnalyticsObject = window.analyticsObject;
+
+        if (localAnalyticsObject && localAnalyticsObject?.pageInformation) {
+            const isPDPPage = localAnalyticsObject?.pageInformation?.isProduct || false;
+            const pageViewObject = {
+				"event": "pageview"
+			};
+
+            let commonBreadCrumb = '';
+            const breadcrumbListSections = document.querySelectorAll('.breadcrumb__container__section');
+            breadcrumbListSections?.forEach((DomElement, indexOfDomElement) => {
+                const itemText = DomElement.querySelector(".breadcrumb__container__section_item")
+                const dropdownText = DomElement.querySelector(".breadcrumb__container__section_dropdown-item")
+                let breadcrumbText = "";
+                if (itemText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + itemText.textContent.trim();
+                } else if (dropdownText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + dropdownText.textContent.trim();
+                } else {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + DomElement.textContent.trim();
+                }
+                commonBreadCrumb = commonBreadCrumb + breadcrumbText;
+            });
+            if (isPDPPage) {
+                const productLifeCycle = document.querySelector('.recently-viewed-flag');
+                pageViewObject.productInfo = {
+                    eventName: 'Product View',
+                    productListItems: []
+                };
+                pageViewObject.productInfo.productListItems.push({
+                    productLifeCycle: productLifeCycle ? productLifeCycle.textContent.trim().toUpperCase() : '',
+                    productBreadCrumb: '',
+                    SKU: ''
+                })
+                pageViewObject.productInfo.productListItems[0].productBreadCrumb = commonBreadCrumb;
+                pageViewObject.productInfo.productListItems[0].SKU = commonBreadCrumb.split("|").reverse()[0];
+            } else {
+                pageViewObject.productInfo = {};
+            }
+            const url = localAnalyticsObject?.pageInformation?.pageUrl
+            let previousPageName = localAnalyticsObject?.pageInformation?.previousPageUrl;
+            if (previousPageName) {
+                previousPageName = previousPageName.split('.html')[0];
+                previousPageName = previousPageName.split('/').reverse()[0];
+            }
+            const category = url?.split('/');
+            category.shift();
+            category.splice(0, 2);
+            pageViewObject.pageInfo = {
+                "pageName": localAnalyticsObject?.pageInformation?.pageName,
+                "pageCategory": localAnalyticsObject?.pageInformation?.pageCategory,
+                "pageURL": localAnalyticsObject?.pageInformation?.pageUrl,
+                "pageType": localAnalyticsObject?.pageInformation?.pageType,
+                "pageBreadCrumb": commonBreadCrumb,
+                "previousPageName": previousPageName,
+                "previousPageUrl": localAnalyticsObject?.pageInformation?.previousPageUrl,
+                "pageEvents": '',
+                "siteSection1": category[1],
+                "siteSection2": category[2] ? category[2] : '',
+                "siteSection3": category[3] ? category[3] : '',
+                "siteSection4": category[4] ? category[4] : '',
+                "siteSection5": category[5] ? category[5] : '',
+                "sitecoreItemID": localAnalyticsObject?.pageInformation?.itemId
+            };
+            pageViewObject.siteInfo = {
+                "siteLanguage": category[0]
+            };
+            pageViewObject.userInfo = {
+                "userType": '',
+                "isLoggedIn": userLoggedState
+            }
+            window.adobeDataLayer = window.adobeDataLayer || [];
+            window.adobeDataLayer.push(pageViewObject);
+			window.adobeDataLayer.reverse();
+            console.log(window.adobeDataLayer);
+        }
+    </script>
+
+
+</div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+    <!-- /#content -->
+    <!-- #footer -->
+    <footer role="contentinfo">
+        <div id="footer" class="container-fluid">
+            <div class=" row">
+                <div>
+        <adi-footer></adi-footer>
+</div>
+            </div>
+        </div>
+    </footer>
+    <!-- /#footer -->
+</div>
+<!-- /#wrapper -->
+
+
+    
+        
+
+
+    <!-- /#wrapper -->
+                <script src="https://players.brightcove.net/706011717001/HJgoScClQ_default/index.min.js" defer></script>
+
+    <script src="https://assets2.analog.com/cms-assets/js/pages/scripts/common.bundle.js"></script>    
+    <script src="https://assets2.analog.com/cms-assets/js/pages/scripts/rte-editor-control.bundle.js"></script>
+    <script async src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-plugin.bundle.js"></script>
+    <script src="https://assets2.analog.com/cms-assets/js/app.bundle.js"></script>
+    <script src="https://assets2.analog.com/lib/scripts/plugins/bootstrap-slider.min.js"></script>
+
+    <!-- Latest compiled and minified JS -->
+
+        <!-- Legacy - vendor Dependencies -->
+<script src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-common.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-analog-dialogue.bundle.js"></script>
+        <div class="legacy-component">
+            <script id="image-modal-template" type="text/x-handlebars-template">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="image-label">{{{title}}}</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="control-icons">
+                        <li>
+                            {{#if data_download}}
+                            <a class="downloadimagelink" href="{{data_download}}" download="{{data_download}}">
+                                <span id="downbutton" class="icon-download"></span>
+                            </a>
+                            {{else}}
+                            <a class="downloadimagelink" href="{{src}}" download="{{src}}">
+                                <span id="downbutton" class="icon-download"></span>
+                            </a>
+                            {{/if}}
+                        </li>
+                        <li><a class="print pull-right"><span class="icon-print"></span></a></li>
+                    </ul>
+                    <br />
+                    <img alt="{{{title}}}" class="img-responsive" title="{{{title}}}" src="{{src}}" loading="lazy" />
+                    <br />
+                </div>
+
+            </script>
+
+            <div class="modal fade product-modal" id="image-modal" tabindex="-1" role="dialog" aria-labelledby="product-modal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content"></div>
+                </div>
+            </div>          
+            <div class="modal" id="adi-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade product-modal modal-video-window" tabindex="-1" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span aria-hidden="true">&times;</span>
+                                <span class="sr-only">Close</span>
+                            </button>
+                            <h4 class="modal-title">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script id="html5Videoplayer" type="text/x-handlebars-template">
+                <div class="deferred-video-player"
+                     data-account="{{accountid}}"
+                     data-application-id
+                     data-controls
+                     data-embed="{{embed}}"
+                     data-player="{{playerid}}"
+                     data-video-id="{{videoid}}">
+                    <i class="fa fa-spinner fa-spin fa-2x"></i>
+                </div>
+            </script>
+        </div>
+
+
+    <script id="image-rte-modal-template" type="text/x-handlebars-template">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="image-label">{{{title}}}</h4>
+        </div>
+        <div class="modal-body">
+            <ul class="control-icons">
+                <li>
+                    {{#if data_download}}
+                    <a class="downloadimagelink" href="{{data_download}}" download="{{data_download}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{else}}
+                    <a class="downloadimagelink" href="{{src}}" download="{{src}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{/if}}
+                </li>
+                <li><a class="print pull-right"><span class="icon-print"></span></a></li>
+            </ul>
+            <br />
+            <img alt="{{{title}}}" class="img-responsive" title="{{{title}}}" src="{{src}}" loading="lazy" />
+            <br />
+        </div>
+    </script>
+
+    <div class="rte-control">
+        <div class="modal fade product-modal image-rte-modal" id="image-rte-modal" tabindex="-1" role="dialog" aria-labelledby="product-modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content"></div>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript"  src="/iugA1l/w/5/sH9MxYUEd8_L/OV3rmw6ptVbS7X/WiUKVjkHAQ/Sn1TexFS/LA0B"></script></body>
+</html>

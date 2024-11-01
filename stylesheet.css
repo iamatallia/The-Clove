@@ -1,1 +1,32 @@
 .form {margin-top: 5%;}
+.nav{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    position: relative;
+}
+
+.nav li{
+    display:inline-block;
+}
+.nav a{
+  text-decoration: none;
+  color: #b8d2db;
+  color: #fff;
+  display: inline-block;
+  padding: 15px;
+  font-size: 20px;
+  transition: 0.4s;
+  font-family: 'Montserrat Alternates', sans-serif;
+
+}
+.logo-massaviu {
+    position: fixed;
+    padding: 0px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 1;
+    width: 20px;
+  }
+ 
