@@ -1,4 +1,4 @@
-.form {margin-top: 5%;}
+.form {margin-top: 10%;}
 .nav{
     list-style:none;
     margin:0px;
@@ -28,5 +28,9 @@
     overflow: hidden;
     z-index: 1;
     width: 20px;
+  }
+  .text{
+    text-align: center;
+    font-size: 200%;
   }
  
