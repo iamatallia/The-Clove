@@ -49,3 +49,11 @@ body{background-color:   darkviolet;
   margin-left: 30%;
   margin-right: 30%;
 }
+.card-deck{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.card{
+  flex: 1 0 auto;
+}
