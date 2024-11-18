@@ -57,3 +57,12 @@ body{background-color:   darkviolet;
 .card{
   flex: 1 0 auto;
 }
+.overview{
+  margin-top: 10%;
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%;
+  font-size: 65px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 500;
+}
