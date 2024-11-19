@@ -70,3 +70,15 @@ body{background-color:   darkviolet;
   margin-top: 10%;
   
 }
+.thank{
+  margin-top: 10%;
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%;
+  font-size: 90px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.check{
+  
+}
