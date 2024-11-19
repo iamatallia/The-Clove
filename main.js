@@ -59,7 +59,7 @@ function productnumquantity(){
     var node = document.createElement("div");
         node.setAttribute("class", "cart-single-item-container d-flex align align-items-center flex-wrap py-4 border-bottom");
     var textnode = node.innerHTML=`<div class="col-12 col-md-6 col-lg-4 py-3">
-        <img src="${getSrc}" style="width:70px; height:70px;" class="cart-single-img d-inline">
+        
         <b class="cart-single-title d-inline fs-5 ps-3">${getTitle}</b>
       </div>
       <div class="col-12 col-md-6 col-lg-4 py-3">
