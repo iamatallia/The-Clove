@@ -3,7 +3,7 @@
     list-style:none;
     margin:0%;
     padding:0%;
-    text-align:center;
+    text-align:left;
     position: ;
 }
 
@@ -19,7 +19,7 @@
   font-size: 20%;
   transition: 0.4s;
   font-family: 'Montserrat Alternates', sans-serif;
-
+  
 }
 .logo-massaviu {
     position: fixed;
@@ -30,8 +30,8 @@
     width: 10%;
   }
   .text{
-    margin-left: 30%;
-    margin-right:40%;
+    margin-left: %;
+    margin-right:%;
     font-size: 200%;
   }
  .about{
