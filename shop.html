@@ -81,7 +81,7 @@
              
               <div class="card-body">
                 <h5 class="cart-title">Athena</h5>
-                  <span class="card-price">$300 Per Adult Plant</span>
+                  <span class="card-price">$300</span>
                 <button type="button" class="btn btn-dark rounded-0 float-end add-to-cart">Add to cart</button>
               </div>
             </div>
@@ -100,7 +100,7 @@
             <div class="card rounded-0">
               
               <div class="card-body">
-                <h5 class="cart-title">Glass Container</h5>
+                <h5 class="cart-title">Athena's Container</h5>
                   <span class="card-price">$50</span>
                 <button type="button" class="btn btn-dark rounded-0 float-end add-to-cart">Add to cart</button>
               </div>
@@ -120,7 +120,7 @@
             <div class="card rounded-0">
               
               <div class="card-body">
-                <h5 class="cart-title">Aphrodite Herbal Tea</h5>
+                <h5 class="cart-title">Aphrodite Bath Petals</h5>
                   <span class="card-price">$100</span>
                 <button type="button" class="btn btn-dark rounded-0 float-end add-to-cart">Add to cart</button>
               </div>
@@ -157,17 +157,23 @@
       </section> 
       <form class="row g-3">
         <div class="col-md-4">
-          <label for="validationServer01" class="form-label">First name</label>
-          <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
-          <div class="valid-feedback">
-            Looks good!
+          <label for="validationServerUsername" class="form-label">First Name</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend3"></span>
+            <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+            <div id="validationServerUsernameFeedback" class="invalid-feedback">
+              Please enter a first name.
+            </div>
           </div>
         </div>
         <div class="col-md-4">
-          <label for="validationServer02" class="form-label">Last name</label>
-          <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
-          <div class="valid-feedback">
-            Looks good!
+          <label for="validationServerUsername" class="form-label">Last Name</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend3"></span>
+            <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+            <div id="validationServerUsernameFeedback" class="invalid-feedback">
+              Please enter a last name.
+            </div>
           </div>
         </div>
         <div class="col-md-4">
@@ -176,7 +182,7 @@
             <span class="input-group-text" id="inputGroupPrepend3"></span>
             <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
             <div id="validationServerUsernameFeedback" class="invalid-feedback">
-              Please enter a card number.
+              Please enter a card number and CVC.
             </div>
           </div>
         </div>
